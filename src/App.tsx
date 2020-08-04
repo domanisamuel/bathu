@@ -7,7 +7,6 @@ import ErrorPage from './pages/404/ErrorPage';
 
 //components
 import Preloader from './components/preloader/preloader';
-import Navigation from './components/navigation/navigation';
 
 function App() {
   const [ spinner, setSpinner ] = useState(true); // preloading
@@ -23,12 +22,10 @@ function App() {
     return (
       <div className="App">
         <BrowserRouter>
-          <Navigation>
             <Switch>
               <Route path='/' exact component={HomePage}/>
               <Route component={ErrorPage}/>
             </Switch>
-          </Navigation>
         </BrowserRouter>
       </div>
     );

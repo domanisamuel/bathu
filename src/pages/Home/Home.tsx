@@ -1,10 +1,14 @@
 import React from 'react'
 import styles from './Home.module.scss'
 
+import Navigation from '../../components/navigation/navigation';
+import MainSlide from '../../components/main-slide/main-slide';
+
 const HomePage: React.FC =()=> {
     return (
         <div className={styles.home}>
-            <h1>Welcome to Bathu Sneakers! <span role='img' aria-label=''> 👟</span></h1>
+            <Navigation/>
+            <MainSlide/>
         </div>
     )
 }
