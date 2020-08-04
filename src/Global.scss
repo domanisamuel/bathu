@@ -1,11 +1,14 @@
 // fonts
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+$logo-font: 'Pacifico', cursive;
 
 // colors
 $color-white: #fff;
 $color-gray-light:#f0f2f5;
 $color-gray-dark:#495057;
 $color-vivid-red: #ff0476;
-$color-lime-green: #00ce83;
+$color-lime-green: #2abb9b;
 $color-line: #DFE2E5;
 $color-blue: #2070D8;
 
@@ -14,7 +17,8 @@ $border-radius: 8px;
 $border-radius-max: 999em;
 
 // box-shadows
-$box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+$fb-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+$glovo-box-shadow: 0 2px 20px 0 rgba(0,0,0,.1);
 $box-shadow-button: 0 16px 26px -10px rgba(63,106,216,0.56), 0 4px 25px 0px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(63,106,216,0.2);
 
 
